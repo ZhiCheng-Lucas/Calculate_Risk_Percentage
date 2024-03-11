@@ -1,10 +1,9 @@
 # Calculate_Risk_Percentage
  
-# README
-
 ## About This Project
 
-This project is a Flask-based application designed for risk assessment calculations based on suspect cases from various log sources such as building access, proxy logs, and PC access. It incorporates a unique frequency scaling and normalization methodology to provide a nuanced and actionable risk percentage, ensuring that organizations can effectively monitor and respond to potential security threats.
+This project is a Flask-based application designed for risk assessment calculations based on suspect cases from various log sources such as building access, proxy logs, and PC access. 
+It incorporates a unique frequency scaling and normalization methodology to provide a nuanced and actionable risk percentage.
 
 ## Usage
 
@@ -36,7 +35,9 @@ The application categorizes suspect activities into six cases, each associated w
 
 ### Frequency Scaling
 
-The application implements a scaling strategy to address the diminishing impact of repeated incidents. Inspired by logarithmic time complexity, this method halves the impact of each successive case of the same type. For instance, three instances of after-hour logins would cumulatively increase the risk by 17.5% (10% for the first, 5% for the second, and 2.5% for the third), emphasizing a decreasing incremental effect with each new incident.
+The application implements a scaling strategy to address the diminishing impact of repeated incidents. Inspired by logarithmic time complexity, this method halves the impact of each successive case of the same type. 
+
+For instance, three instances of after-hour logins would cumulatively increase the risk by 17.5% (10% for the first, 5% for the second, and 2.5% for the third), emphasizing a decreasing incremental effect with each new incident.
 
 ### Normalization
 
@@ -44,7 +45,8 @@ To maintain coherence and prevent inflation of risk percentages, the algorithm c
 
 ### Rounding Up
 
-The application rounds the total risk percentage to the nearest full percentage, always rounding up in the case of decimals. This approach ensures that any fractional risk percentage is conservatively adjusted to the next full number, reflecting a precautionary stance in risk assessment.
+The application rounds the total risk percentage to the nearest full percentage, always rounding up in the case of decimals. 
+This approach ensures that any fractional risk percentage is conservatively adjusted to the next full number, reflecting a precautionary stance in risk assessment.
 
 ## Sample Input and Output
 
