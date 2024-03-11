@@ -1,0 +1,111 @@
+{
+  "building_access": [
+    {
+      "id": 28230,
+      "user_id": 696,
+      "access_date_time": "2023-01-15 03:43:14.000000",
+      "direction": "OUT",
+      "status": "FAIL",
+      "office_location": "Beijing",
+      "suspect": 4
+    },
+    {
+      "id": 29723,
+      "user_id": 734,
+      "access_date_time": "2023-01-04 04:28:37.000000",
+      "direction": "IN",
+      "status": "FAIL",
+      "office_location": "Sydney",
+      "suspect": 4
+    },
+    {
+      "id": 32242,
+      "user_id": 795,
+      "access_date_time": "2023-01-17 00:24:58.000000",
+      "direction": "IN",
+      "status": "FAIL",
+      "office_location": "New Jersey",
+      "suspect": 4
+    },
+    {
+      "id": 32243,
+      "user_id": 795,
+      "access_date_time": "2023-01-17 03:59:58.000000",
+      "direction": "OUT",
+      "status": "FAIL",
+      "office_location": "New Jersey",
+      "suspect": 4
+    }
+  ],
+  "proxy_log": [
+    {
+      "id": 1349,
+      "user_id": 12,
+      "access_date_time": "2023-01-27 08:32:02.000000",
+      "machine_name": "PC_12",
+      "url": "https://resources.workable.com/tutorial/source-on-slack",
+      "category": "Collaboration, Communication",
+      "bytes_in": 3851864,
+      "bytes_out": 87534786,
+      "suspect": 6
+    },
+    {
+      "id": 1402,
+      "user_id": 13,
+      "access_date_time": "2023-01-28 21:15:22.000000",
+      "machine_name": "PC_13",
+      "url": "https://www.pagseguro.uol.com.br",
+      "category": "Finance",
+      "bytes_in": 3773548,
+      "bytes_out": 867207134,
+      "suspect": 6
+    }
+  ],
+  "pc_access": [
+    {
+      "id": 451,
+      "user_id": 11,
+      "access_date_time": "2023-01-05 01:42:50.000000",
+      "log_on_off": "Log On",
+      "machine_name": "PC_2146",
+      "machine_location": "Sydney",
+      "suspect": 5
+    },
+    {
+      "id": 2273,
+      "user_id": 55,
+      "access_date_time": "2023-01-08 16:28:54.000000",
+      "log_on_off": "Log On",
+      "machine_name": "PC_1972",
+      "machine_location": "Tokyo",
+      "suspect": 5
+    },
+    {
+      "id": 6667,
+      "user_id": 165,
+      "access_date_time": "2023-01-20 17:38:43.000000",
+      "log_on_off": "Log On",
+      "machine_name": "PC_2070",
+      "machine_location": "New Jersey",
+      "suspect": 5
+    },
+    {
+      "id": 7172,
+      "user_id": 178,
+      "access_date_time": "2023-01-04 16:59:06.000000",
+      "log_on_off": "Log Off",
+      "machine_name": "PC_2246",
+      "machine_location": "Zurich",
+      "suspect": 5
+    },
+    {
+      "id": 7492,
+      "user_id": 185,
+      "access_date_time": "2023-01-15 08:28:10.000000",
+      "log_on_off": "Log Off",
+      "machine_name": "PC_3054",
+      "machine_location": "Zurich",
+      "suspect": 5
+    }
+  ]
+}
