@@ -1,0 +1,35 @@
+{
+    "building_access": [
+        {
+            "id": 28230,
+            "user_id": 696,
+            "access_date_time": "2023-01-15 03:43:14.000000",
+            "direction": "OUT",
+            "status": "FAIL",
+            "office_location": "Beijing",
+            "suspect": 4
+        },
+        {
+            "id": 28230,
+            "user_id": 696,
+            "access_date_time": "2023-01-15 03:43:14.000000",
+            "direction": "OUT",
+            "status": "FAIL",
+            "office_location": "Beijing",
+            "suspect": 4
+        }
+    ],
+    "proxy_log": [
+        {
+            "id": 1349,
+            "user_id": 12,
+            "access_date_time": "2023-01-27 08:32:02.000000",
+            "machine_name": "PC_12",
+            "url": "https://resources.workable.com/tutorial/source-on-slack",
+            "category": "Collaboration, Communication",
+            "bytes_in": 3851864,
+            "bytes_out": 87534786,
+            "suspect": 6
+        }
+    ]
+}
