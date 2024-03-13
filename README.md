@@ -130,10 +130,8 @@ in Calculate_Risk_Percentage directory
 
 ## TODO
 
-1. **Remove Debug Mode for Production**: The Flask application is currently running in debug mode, which is suitable for development but not secure or performant for production environments. The application should be configured to run in a production setting without debug mode enabled.
+1. **Implement Static Analysis**: Integrate static code analysis tools to identify potential security flaws, code quality issues, and other vulnerabilities within the application's codebase. Tools such as Flake8, Black for code formatting, and Bandit for security vulnerabilities are recommended.
 
-2. **Implement Static Analysis**: Integrate static code analysis tools to identify potential security flaws, code quality issues, and other vulnerabilities within the application's codebase. Tools such as Flake8, Black for code formatting, and Bandit for security vulnerabilities are recommended.
-
-3. **Automate Static Analysis and Testing**:
+2. **Automate Static Analysis and Testing**:
     - **Continuous Integration (CI) Pipeline**: Set up a CI pipeline using platforms like GitHub Actions, GitLab CI, or Jenkins to automate the running of static analysis and tests with each commit or pull request.
     - **Pre-commit Hooks**: Implement pre-commit hooks using a tool like `pre-commit` to run static analysis and formatting checks before each commit, helping to catch issues early in the development cycle.
